@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import Cool from "../Images/Cool.jpg";
+
 const Section5 = () => {
   return (
     <section className="bg-white pb-10 dark:bg-gray-900">
+      
+    
       <div className="container px-6 py-10 mx-auto">
+        
         <div className="text-center">
           <h1 className="text-xl md:text-2xl mb-14 font-medium text-gray-800 capitalize lg:text-3xl dark:text-white">
             Introducing our new <br />{" "}

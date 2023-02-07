@@ -123,7 +123,7 @@ const Section2 = () => {
             Why Choose Us
           </span>
           <h2 className="text-dark mb-8 text-3xl font-bold sm:text-4xl">
-           Constomer Satisfactory is our biggest concern!
+           Costomer Satisfactory is our biggest concern!
           </h2>
           <p className="text-body-color mb-8 text-base">
           Industrial Coolant Systems, LLC manufactures high pressure coolant systems for machine tool applications. ICS is a relatively new company based out of Denver, Colorado with 35 years of combined experience in the Machine tool industry. As we continue to grow, we are expanding our network of dealers across the U.S. as well as internationally. We are dedicated in providing high performance, low cost products to the manufacturing industry.

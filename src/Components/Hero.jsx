@@ -158,7 +158,7 @@ const Hero = () => {
                   </div>
                 </nav>
               </header>
-              <div className="Max-w-[800px] font-Poppins  w-full h-auto mx-auto px-5 text-center flex flex-col justify-center ">
+              <div className="Max-w-[800px] font-Poppins  w-full h-auto mx-auto px-1 text-center flex flex-col justify-center ">
                 {/* <nav className="bg-black text-white hover:text-gray-700 text-xs sm:text-sm md:text-sm  lg:text-sm font-medium ">
         <div className="container flex items-center text-center  justify-center py-4 mx-auto  capitalize ">
           <a
@@ -193,7 +193,7 @@ const Hero = () => {
         </div>
       </nav> */}
                 
-                <div className="text-gray-300 md:text-6xl  sm:text-5xl text-2xl font-semibold font-Poppins md:py-3">
+                <div className="text-gray-300 md:text-5xl sm:text-5xl text-3xl font-normal font-Poppins ">
                   <motion.div
                     initial="hidden"
                     whileInView="visible"
@@ -205,7 +205,7 @@ const Hero = () => {
                     }}
                   >
                     <div>
-                    Higher performance, <br/> smaller footprint, <br/> lower price!
+                    Higher Performance, Smaller Footprints <br/> <h1 className="md:pt-3">With</h1><h1 className="md:pt-3"> Lower Price!</h1>
                       <span className="pl-3 text-blue-800 font-Poppins ">
                      
                       </span>
@@ -222,7 +222,7 @@ const Hero = () => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-                  <p className="text-blue-700 pt-5 text-lg md:text-xl font-medium  ">
+                  <p className="text-blue-700  text-lg md:text-xl font-medium  ">
                   LLC manufactures
                  high pressure coolant systems  for machine tool applications.
                   </p>{" "}
