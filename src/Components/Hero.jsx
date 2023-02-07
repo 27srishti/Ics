@@ -7,7 +7,7 @@ import { Transition } from "@headlessui/react";
 const Hero = () => {
   return (
     <section>
-      <header className="relative  flex items-center justify-center h-auto mb-12 overflow-hidden">
+      <header className="relative  flex items-center justify-center h-auto  overflow-hidden">
         <div className="relative w-full bg-black">
           <div className="relative z-30 p-5 text-2xl text-white h-auto bg-black bg-opacity-80 ">
             <div className="text-white relative  ">
@@ -27,7 +27,7 @@ const Hero = () => {
                   </ui>
                 </div>
                 {/* ------------------------------------------------------------------------------------------------------------- */}
-                <nav className="sm:px-4 py-2.5 bg-opacity-0 mx-auto  w-full z-20 flex justify-between border-b border-gray-200 dark:border-gray-600">
+                <nav className="sm:px-4 pb-5 py-2.5 bg-opacity-0 mx-auto  w-full z-20 flex justify-between border-b border-gray-200 dark:border-gray-600">
                   <div className="container flex flex-wrap items-center justify-between mx-auto">
                     <a
                       href="https://flowbite.com/"
@@ -84,9 +84,9 @@ const Hero = () => {
                       </li>
                     </div>
 
-                    <div className=" md:w-full hidden cursor-pointer max-w-xs  md:max-w-xl xl:max-w-3xl 2xl:max-w-5xl  border-2 border-white border-opacity-50 rounded-md  xl:flex items-center">
-                      <div className=" bg-gray-100 opacity-50 text-black  ">
-                        <select className="bg-transparent uppercase   font-bold text-sm p-4 mr-2">
+                    <div className=" md:w-full  h-[100%] hidden cursor-pointer max-w-xs  md:max-w-xl xl:max-w-3xl 2xl:max-w-5xl  border-[0.5px] border-white border-opacity-50 rounded-md  xl:flex items-center">
+                      <div className="  rounded-l-md opacity-50 text-black  ">
+                        <select className=" uppercase  rounded-l-md font-bold text-sm p-[0.70rem]  mr-2">
                           <option>all categories</option>
                           <option>High Pressure Systems</option>
                           <option>Medium Pressure Systems</option>
@@ -98,12 +98,12 @@ const Hero = () => {
                       </div>
 
                       <input
-                        className=" bg-transparent font-semibold text-sm pl-6"
+                        className=" border-0 bg-transparent font-semibold text-sm pl-6"
                         type="text"
                         placeholder="I'm searching for ..."
                       />
                       <svg
-                        className="ml-auto h-5 px-4  text-gray-500"
+                        className="ml-auto h-5 px-4 "
                         aria-hidden="true"
                         focusable="false"
                         data-prefix="far"
@@ -158,7 +158,7 @@ const Hero = () => {
                   </div>
                 </nav>
               </header>
-              <div className="Max-w-[800px] font-Poppins  w-full h-auto mx-auto text-center flex flex-col justify-center ">
+              <div className="Max-w-[800px] font-Poppins  w-full h-auto mx-auto px-5 text-center flex flex-col justify-center ">
                 {/* <nav className="bg-black text-white hover:text-gray-700 text-xs sm:text-sm md:text-sm  lg:text-sm font-medium ">
         <div className="container flex items-center text-center  justify-center py-4 mx-auto  capitalize ">
           <a
@@ -192,22 +192,8 @@ const Hero = () => {
           </a>
         </div>
       </nav> */}
-                <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 1, duration: 10, type: "spring" }}
-                  variants={{
-                    hidden: { opacity: 0, x: 0 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-                  <p className="text-white pt-10  mb-3 ">
-                    ZERO fees from Influencers until you earn your first 1
-                    Million
-                  </p>{" "}
-                </motion.div>
-                <div className="text-white md:text-6xl  sm:text-5xl text-2xl font-bold font-Poppins md:py-6">
+                
+                <div className="text-gray-300 md:text-6xl  sm:text-5xl text-2xl font-semibold font-Poppins md:py-3">
                   <motion.div
                     initial="hidden"
                     whileInView="visible"
@@ -219,29 +205,28 @@ const Hero = () => {
                     }}
                   >
                     <div>
-                      We are One Stop
+                    Higher performance, <br/> smaller footprint, <br/> lower price!
                       <span className="pl-3 text-blue-800 font-Poppins ">
-                        Influencer
+                     
                       </span>
                       <br />
                     </div>{" "}
                   </motion.div>
                   <motion.div
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    transition={{ delay: 0.6, duration: 2, type: "spring" }}
-                    variants={{
-                      hidden: { opacity: 0, x: 180 },
-                      visible: { opacity: 1, x: 0 },
-                    }}
-                  >
-                    <a>
-                      <div className="pt-2 sm:pt-3 md:pt-7 font-Poppins  text-blue-800">
-                        Marketing Agency
-                      </div>
-                    </a>
-                  </motion.div>
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 1, duration: 10, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 0 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
+                  <p className="text-blue-700 pt-5 text-lg md:text-xl font-medium  ">
+                  LLC manufactures
+                 high pressure coolant systems  for machine tool applications.
+                  </p>{" "}
+                </motion.div>
                 </div>
                 <motion.div
                   initial="hidden"
@@ -253,9 +238,8 @@ const Hero = () => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-                  <p className=" text-gray-500 font-Poppins md:text-xl pt-3 sm:pt-4 md:pt-2 sm:text-base  md:text-xl font-bold">
-                    We help both Influencers and Brands to stay on top of their
-                    game.
+                  <p className=" text-gray-300 font-Poppins text-lg md:text-xl pt-3 sm:pt-4 md:pt-2 sm:text-base  md:text-xl font-medium">
+                  How can you afford not to add high pressure?
                   </p>
                 </motion.div>
 
@@ -275,12 +259,12 @@ const Hero = () => {
                 >
                   <a
                     href="#_"
-                    class="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-md group  border  hover:text-violet-200  border-blue-500 w-[170px] font-medium my-10 mx-auto py-3"
+                    class="relative text-base md:text-lg  inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-md group  border  hover:text-violet-200  border-blue-500 md:w-[150px] font-medium my-10 mx-auto py-3"
                   >
                     <span class="w-full rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-blue-800 opacity-[3%]"></span>
                     <span class="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
                     <span class="relative w-full text-center text-white transition-colors duration-200 ease-in-out group-hover:text-gray-900">
-                      Get Started
+                      Know More
                     </span>
                     <span class="absolute inset-0 border border-blue-500 rounded-sm"></span>
                   </a>
@@ -293,7 +277,7 @@ const Hero = () => {
           autoPlay
           loop
           muted
-          className="mx-auto bg-auto absolute z-10 w-auto min-w-full min-h-full max-w-none"
+          className="mx-auto bg-auto absolute blur-s  z-10 w-auto min-w-full min-h-full max-w-none"
         >
           <source src={hero} type="video/mp4" />
           Your browser does not support the video tag.
