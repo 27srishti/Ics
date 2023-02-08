@@ -74,7 +74,7 @@ const Hero = () => {
                         href="#_"
                         className="relative w-[5rem] sm:w-[7rem] -mx-8 md:-mx-0 lg:w[7rem] md:w-[7rem]   text-center rounded   overflow-hidden group  bg-blue-700 hover:bg-gradient-to-r hover:from-blue-400 hover:to-blue-900 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-500 shadow shadow-lg transition-all ease-out duration-300"
                       >
-                        <span className="absolute right-0 w-8 h-32  -mt-12 transition-all duration-1000 transform translate-x-12 bg-white  rotate-12 group-hover:-translate-x-40 ease" />
+                        <span className="absolute right-0 w-8 h-32  -mt-12 transition-all duration-1000 transform translate-x-12 bg-gray-100 bg-opacity-25  rotate-12 group-hover:-translate-x-40 ease" />
                         <span className="relative text-base ">Sign-Up</span>
                       </a>
                       <li className="invisible rounded-sm cursor-pointer md:visible ml-2 lg:ml-4 relative inline-block">
