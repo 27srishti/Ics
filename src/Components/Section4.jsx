@@ -19,8 +19,8 @@ const Section4 = () => {
         </div> <div className="flex flex-col justify-between col-span-12 py-2 space-y-8 md:space-y-16 md:col-span-3">
           <div className="flex flex-col space-y-8 md:space-y-12">
             <div className="flex flex-col space-y-2">
-              <h3 className="flex items-center space-x-2 dark:text-gray-600">
-                <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full dark:bg-blue-400"></span>
+              <h3 className="flex items-center space-x-2 text-gray-600">
+                <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-blue-400"></span>
                 <span className="text-xs font-bold tracking-wider uppercase">
                   Exclusive
                 </span>
@@ -33,20 +33,20 @@ const Section4 = () => {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </a>
-              <p className="text-xs dark:text-gray-400">
+              <p className="text-xs text-gray-400">
                 47 minutes ago by
                 <a
                   rel="noopener noreferrer"
                   href="#"
-                  className="hover:underline dark:text-blue-800"
+                  className="hover:underline text-blue-800"
                 >
                   Leroy Jenkins
                 </a>
               </p>
             </div>
             <div className="flex flex-col space-y-2">
-              <h3 className="flex items-center space-x-2 dark:text-gray-600">
-                <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full dark:bg-blue-400"></span>
+              <h3 className="flex items-center space-x-2 text-gray-600">
+                <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-blue-400"></span>
                 <span className="text-xs font-bold tracking-wider uppercase">
                   Exclusive
                 </span>
@@ -59,20 +59,20 @@ const Section4 = () => {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </a>
-              <p className="text-xs dark:text-gray-400">
+              <p className="text-xs text-gray-400">
                 2 hours ago by 
                 <a
                   rel="noopener noreferrer"
                   href="#"
-                  className="hover:underline dark:text-blue-800"
+                  className="hover:underline text-blue-800"
                 >
                   Leroy Jenkins
                 </a>
               </p>
             </div>
             <div className="flex flex-col space-y-2">
-              <h3 className="flex items-center space-x-2 dark:text-gray-600">
-                <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full dark:bg-blue-400"></span>
+              <h3 className="flex items-center space-x-2 text-gray-600">
+                <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-blue-400"></span>
                 <span className="text-xs font-bold tracking-wider uppercase">
                   Exclusive
                 </span>
@@ -85,12 +85,12 @@ const Section4 = () => {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry..
               </a>
-              <p className="text-xs dark:text-gray-400">
+              <p className="text-xs text-gray-400">
                 4 hours ago by
                 <a
                   rel="noopener noreferrer"
                   href="#"
-                  className="hover:underline dark:text-blue-800"
+                  className="hover:underline :text-blue-800"
                 >
                    Leroy Jenkins
                 </a>
@@ -98,8 +98,8 @@ const Section4 = () => {
             </div>
           </div>
           <div className="flex flex-col w-full space-y-2">
-            <div className="flex w-full h-1 bg-opacity-10 dark:bg-blue-700">
-              <div className="w-1/2 h-full dark:bg-black"></div>
+            <div className="flex w-full h-1 bg-opacity-10 bg-blue-700">
+              <div className="w-1/2 h-full bg-black"></div>
             </div>
             <a
               rel="noopener noreferrer"
@@ -115,7 +115,7 @@ const Section4 = () => {
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="w-4 strokeCurrent dark:text-blue-400"
+                className="w-4 strokeCurrent text-blue-400"
               >
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
@@ -130,16 +130,16 @@ const Section4 = () => {
           ></img>
         </div>
         <div className="hidden py-2 xl:col-span-3 lg:col-span-4 md:hidden lg:block">
-          <div className="mb-8 space-x-5 border-b-2 border-opacity-10 dark:border-blue-700">
+          <div className="mb-8 space-x-5 border-b-2 border-opacity-10 border-blue-700">
             <button
               type="button"
-              className="pb-5 text-xs font-bold uppercase border-b-2 dark:border-blue-700"
+              className="pb-5 text-xs font-bold uppercase border-b-2 border-blue-700"
             >
               Latest
             </button>
             <button
               type="button"
-              className="pb-5 text-xs font-bold uppercase border-b-2 dark:border-transparent dark:text-gray-400"
+              className="pb-5 text-xs font-bold uppercase border-b-2 border-transparent text-gray-400"
             >
               Popular
             </button>
@@ -148,7 +148,7 @@ const Section4 = () => {
             <div className="flex px-1 py-4">
               <img
                 alt=""
-                className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500"
+                className="flex-shrink-0 object-cover w-20 h-20 mr-4 bg-gray-500"
                 src="https://www.tribonet.org/wp-content/uploads/2022/06/Coolants-1.jpg"
               />
               <div className="flex flex-col flex-grow">
@@ -159,12 +159,12 @@ const Section4 = () => {
                 >
                   Aenean ac tristique lorem, ut mollis dui.
                 </a>
-                <p className="mt-auto text-xs dark:text-gray-400">
+                <p className="mt-auto text-xs text-gray-400">
                   5 minutes ago
                   <a
                     rel="noopener noreferrer"
                     href="#"
-                    className="block dark:text-blue-400 lg:ml-2 lg:inline hover:underline"
+                    className="block text-blue-400 lg:ml-2 lg:inline hover:underline"
                   >
                     Politics
                   </a>
@@ -174,7 +174,7 @@ const Section4 = () => {
             <div className="flex px-1 py-4">
               <img
                 alt=""
-                className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500"
+                className="flex-shrink-0 object-cover w-20 h-20 mr-4 bg-gray-500"
                 src="http://www.industrialcoolantsystems.com/uploads/2/4/3/3/24335298/1476647383.png"
               />
               <div className="flex flex-col flex-grow">
@@ -186,12 +186,12 @@ const Section4 = () => {
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </a>
-                <p className="mt-auto text-xs dark:text-gray-400">
+                <p className="mt-auto text-xs text-gray-400">
                   14 minutes ago
                   <a
                     rel="noopener noreferrer"
                     href="#"
-                    className="block dark:text-blue-400 lg:ml-2 lg:inline hover:underline"
+                    className="block text-blue-400 lg:ml-2 lg:inline hover:underline"
                   >
                     Sports
                   </a>
@@ -201,7 +201,7 @@ const Section4 = () => {
             <div className="flex px-1 py-4">
               <img
                 alt=""
-                className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500"
+                className="flex-shrink-0 object-cover w-20 h-20 mr-4 bg-gray-500"
                 src="http://www.industrialcoolantsystems.com/uploads/2/4/3/3/24335298/published/variflow-front-clipped-rev-1_3.png?1484153156"
               />
               <div className="flex flex-col flex-grow">
@@ -212,12 +212,12 @@ const Section4 = () => {
                 >
                   Vitae semper augue purus tincidunt libero.
                 </a>
-                <p className="mt-auto text-xs dark:text-gray-400">
+                <p className="mt-auto text-xs text-gray-400">
                   22 minutes ago
                   <a
                     rel="noopener noreferrer"
                     href="#"
-                    className="block dark:text-blue-400 lg:ml-2 lg:inline hover:underline"
+                    className="block text-blue-400 lg:ml-2 lg:inline hover:underline"
                   >
                     World
                   </a>
@@ -227,7 +227,7 @@ const Section4 = () => {
             <div className="flex px-1 py-4">
               <img
                 alt=""
-                className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500"
+                className="flex-shrink-0 object-cover w-20 h-20 mr-4 bg-gray-500"
                 src="https://source.unsplash.com/random/247x327"
               />
               <div className="flex flex-col flex-grow">
@@ -238,12 +238,12 @@ const Section4 = () => {
                 >
                   Suspendisse potenti.
                 </a>
-                <p className="mt-auto text-xs dark:text-gray-400">
+                <p className="mt-auto text-xs text-gray-400">
                   37 minutes ago
                   <a
                     rel="noopener noreferrer"
                     href="#"
-                    className="block dark:text-blue-400 lg:ml-2 lg:inline hover:underline"
+                    className="block text-blue-400 lg:ml-2 lg:inline hover:underline"
                   >
                     Business
                   </a>

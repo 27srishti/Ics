@@ -16,7 +16,7 @@ const Navbar = () => {
         
     //   </div>
     //   {/* ------------------------------------------------------------------------------------------------------------- */}
-    //   <nav className="sm:px-4 py-2.5 bg-white mx-auto  w-full z-20 flex justify-between border-b border-gray-200 dark:border-gray-600">
+    //   <nav className="sm:px-4 py-2.5 bg-white mx-auto  w-full z-20 flex justify-between border-b border-gray-200 border-gray-600">
     //     <div className="container flex flex-wrap items-center justify-between mx-auto">
     //       <a href="https://flowbite.com/" className="flex  items-center">
     //         <img src={Logo} className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />

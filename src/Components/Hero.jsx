@@ -27,7 +27,7 @@ const Hero = () => {
                   </ui>
                 </div>
                 {/* ------------------------------------------------------------------------------------------------------------- */}
-                <nav className="sm:px-4 pb-5 py-2.5 bg-opacity-0 mx-auto  w-full z-20 flex justify-between border-b border-gray-200 dark:border-gray-600">
+                <nav className="sm:px-4 pb-5 py-2.5 bg-opacity-0 mx-auto  w-full z-20 flex justify-between border-b border-gray-600">
                   <div className="container flex flex-wrap items-center justify-between mx-auto">
                     <a
                       href="https://flowbite.com/"
