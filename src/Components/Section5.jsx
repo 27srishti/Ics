@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Cool from "../Images/Cool.jpg";
-
+import Coolent1 from "../Images/Coolent1.jpg"
 const Section5 = () => {
   return (
     <section className="bg-white pb-10 dark:bg-gray-900">
@@ -19,7 +19,7 @@ const Section5 = () => {
           <div>
             <img
               className="relative z-10 object-cover w-full rounded-md h-96"
-              src="http://www.industrialcoolantsystems.com/uploads/2/4/3/3/24335298/9748358_orig.jpg"
+              src={Coolent1}
               alt=""
             />
             <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
