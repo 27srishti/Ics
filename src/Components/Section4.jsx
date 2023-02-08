@@ -1,6 +1,9 @@
 import React from "react";
 import Case from "../Images/Case.jpg";
 import Case2 from "../Images/Case2.png";
+import  About1 from "../Images/About1.jpg"
+import  About3 from "../Images/About3.png"
+
 const Section4 = () => {
   return (
     <section className="px-7 md:px-10 py-10 bg-gray-300 text-gray-900">
@@ -13,7 +16,7 @@ const Section4 = () => {
        
       <div className="relative md:hidden flex items-center justify-center col-span-12  bg-center  xl:col-span-6 lg:col-span-5 md:col-span-9 ">
           <img
-            className="  border border-black border-4 md:w-[50%]"
+            className=" shadow-xl  border-black border-4 md:w-[50%]"
             src={Case}
           ></img>
         </div> <div className="flex flex-col justify-between col-span-12 py-2 space-y-8 md:space-y-16 md:col-span-3">
@@ -175,7 +178,7 @@ const Section4 = () => {
               <img
                 alt=""
                 className="flex-shrink-0 object-cover w-20 h-20 mr-4 bg-gray-500"
-                src="http://www.industrialcoolantsystems.com/uploads/2/4/3/3/24335298/1476647383.png"
+                src={About3}
               />
               <div className="flex flex-col flex-grow">
                 <a
@@ -202,8 +205,8 @@ const Section4 = () => {
               <img
                 alt=""
                 className="flex-shrink-0 object-cover w-20 h-20 mr-4 bg-gray-500"
-                src="http://www.industrialcoolantsystems.com/uploads/2/4/3/3/24335298/published/variflow-front-clipped-rev-1_3.png?1484153156"
-              />
+                src={About1}      
+                        />
               <div className="flex flex-col flex-grow">
                 <a
                   rel="noopener noreferrer"
