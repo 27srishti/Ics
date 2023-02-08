@@ -143,7 +143,7 @@ const Hero = () => {
                   viewport={{ once: true, amount: 0.5 }}
                   transition={{ delay: 0.5, duration: 3, type: "spring" }}
                   variants={{
-                    hidden: { opacity: 0, x: -150 },
+                    hidden: { opacity: 0, x: -30},
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
@@ -160,7 +160,7 @@ const Hero = () => {
                   viewport={{ once: true, amount: 0.5 }}
                   transition={{ delay: 0.6, duration:2, type: "spring" }}
                   variants={{
-                    hidden: { opacity: 0, x: -180 },
+                    hidden: { opacity: 0, x: -80 },
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
