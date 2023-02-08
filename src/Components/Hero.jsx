@@ -28,8 +28,19 @@ const Hero = () => {
                 </div>
                 {/* ------------------------------------------------------------------------------------------------------------- */}
                 <nav className="sm:px-4 pb-5 py-2.5 bg-opacity-0 mx-auto  w-full z-20 flex justify-between border-b border-gray-600">
+                  
+              
                   <div className="container flex flex-wrap items-center justify-between mx-auto">
-                    <a
+                     <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: -50 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                > <a
                       href="https://flowbite.com/"
                       className="flex  items-center"
                     >
@@ -39,6 +50,8 @@ const Hero = () => {
                         alt="Flowbite Logo"
                       />
                     </a>
+                    </motion.div>
+                    
                     <div className="flex md:order-2 ">
                       {/* <img
               className="mr-1 w-10 h-10 invisible md:visible"
@@ -56,6 +69,7 @@ const Hero = () => {
                 Location
               </span>
             </div> */}
+            
                       <a
                         href="#_"
                         className="relative w-[5rem] sm:w-[7rem] -mx-8 md:-mx-0 lg:w[7rem] md:w-[7rem]   text-center rounded   overflow-hidden group  bg-blue-700 hover:bg-gradient-to-r hover:from-blue-400 hover:to-blue-900 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-500 shadow shadow-lg transition-all ease-out duration-300"
@@ -123,38 +137,91 @@ const Hero = () => {
                 {/* ------------------------------------------------------------------------------------------------ */}
                 <nav className="bg-gray-200 bg-opacity-0 text-white text-xs sm:text-sm md:text-sm  lg:text-sm font-medium ">
                   <div className="container flex items-center text-center  justify-center py-5 mx-auto  capitalize ">
+                  <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.5, duration: 3, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: -150 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
                     <a
                       href="#"
                       className=" border-b-2 border-blue-500 mx-3 sm:mx-6"
                     >
                       Home
                     </a>
+                    </motion.div>
+                    <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.6, duration:2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: -180 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
                     <a
                       href="#"
                       className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
                     >
                       About
                     </a>
+                    </motion.div>
+                    <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.7, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 180 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
                     <a
                       href="#"
                       className="border-b-2 border-transparent hover:text-gray-400 hover:border-blue-500 mx-3 sm:mx-6"
                     >
                       Products
                     </a>
+                    </motion.div>
+                    <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay:0.8, duration: 3, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 50 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
                     <a
                       href="#"
                       className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
                     >
                       {" "}
                       How-To-Videos{" "}
-                    </a>
+                    </a></motion.div>
+                    <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay:0.9, duration: 3, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 50 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
 
                     <a
                       href="#"
                       className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
                     >
                       Contact
-                    </a>
+                    </a></motion.div>
                   </div>
                 </nav>
               </header>

@@ -1,26 +1,50 @@
 import React from "react";
 import Case from "../Images/Case.jpg";
 import Case2 from "../Images/Case2.png";
-import  About1 from "../Images/About1.jpg"
-import  About3 from "../Images/About3.png"
-
+import About1 from "../Images/About1.jpg";
+import About3 from "../Images/About3.png";
+import { motion, useAnimation } from "framer-motion";
 const Section4 = () => {
   return (
     <section className="px-7 md:px-10 py-10 bg-gray-300 text-gray-900">
-      <h1 className="  text-xl md:text-4xl text-center font-medium mb-8">
-        {" "}
-        Cutting Tool Engineering Magazine <br />{" "}
-        <span className="text-blue-700"> Case Study</span>{" "}
-      </h1>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ delay: 0.5, duration: 3, type: "spring" }}
+        variants={{
+          hidden: { opacity: 0, y: -50 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      >
+        <h1 className="  text-xl md:text-4xl text-center font-medium mb-8">
+          {" "}
+          Cutting Tool Engineering Magazine <br />{" "}
+          <span className="text-blue-700"> Case Study</span>{" "}
+        </h1>
+      </motion.div>
       <div className="container grid grid-cols-12 mx-auto gap-y-2 md:gap-5">
+        <div className="relative md:hidden flex items-center justify-center col-span-12  bg-center  xl:col-span-6 lg:col-span-5 md:col-span-9 ">
        
-      <div className="relative md:hidden flex items-center justify-center col-span-12  bg-center  xl:col-span-6 lg:col-span-5 md:col-span-9 ">
           <img
             className=" shadow-xl  border-black border-4 md:w-[50%]"
             src={Case}
           ></img>
-        </div> <div className="flex flex-col justify-between col-span-12 py-2 space-y-8 md:space-y-16 md:col-span-3">
+         
+        </div>{" "}
+
+        <div className="flex flex-col justify-between col-span-12 py-2 space-y-8 md:space-y-16 md:col-span-3">
           <div className="flex flex-col space-y-8 md:space-y-12">
+          <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
             <div className="flex flex-col space-y-2">
               <h3 className="flex items-center space-x-2 text-gray-600">
                 <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-blue-400"></span>
@@ -47,6 +71,17 @@ const Section4 = () => {
                 </a>
               </p>
             </div>
+            </motion.div>
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.7, duration: 2, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
             <div className="flex flex-col space-y-2">
               <h3 className="flex items-center space-x-2 text-gray-600">
                 <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-blue-400"></span>
@@ -63,7 +98,7 @@ const Section4 = () => {
                 industry.
               </a>
               <p className="text-xs text-gray-400">
-                2 hours ago by 
+                2 hours ago by
                 <a
                   rel="noopener noreferrer"
                   href="#"
@@ -73,6 +108,17 @@ const Section4 = () => {
                 </a>
               </p>
             </div>
+            </motion.div>
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.6, duration: 2.5, type: "spring" }}
+                variants={{ 
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
             <div className="flex flex-col space-y-2">
               <h3 className="flex items-center space-x-2 text-gray-600">
                 <span className="flex-shrink-0 w-2 h-2 uppercase rounded-full bg-blue-400"></span>
@@ -95,11 +141,13 @@ const Section4 = () => {
                   href="#"
                   className="hover:underline :text-blue-800"
                 >
-                   Leroy Jenkins
+                  Leroy Jenkins
                 </a>
               </p>
             </div>
+            </motion.div>
           </div>
+          
           <div className="flex flex-col w-full space-y-2">
             <div className="flex w-full h-1 bg-opacity-10 bg-blue-700">
               <div className="w-1/2 h-full bg-black"></div>
@@ -148,6 +196,16 @@ const Section4 = () => {
             </button>
           </div>
           <div className="flex flex-col divide-y divide-gray-700">
+          <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
             <div className="flex px-1 py-4">
               <img
                 alt=""
@@ -174,6 +232,17 @@ const Section4 = () => {
                 </p>
               </div>
             </div>
+            </motion.div>
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.7, duration: 2, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
             <div className="flex px-1 py-4">
               <img
                 alt=""
@@ -201,12 +270,23 @@ const Section4 = () => {
                 </p>
               </div>
             </div>
+            </motion.div>
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.6, duration: 2.5, type: "spring" }}
+                variants={{ 
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
             <div className="flex px-1 py-4">
               <img
                 alt=""
                 className="flex-shrink-0 object-cover w-20 h-20 mr-4 bg-gray-500"
-                src={About1}      
-                        />
+                src={About1}
+              />
               <div className="flex flex-col flex-grow">
                 <a
                   rel="noopener noreferrer"
@@ -227,6 +307,17 @@ const Section4 = () => {
                 </p>
               </div>
             </div>
+            </motion.div>
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.6, duration: 2.5, type: "spring" }}
+                variants={{ 
+                  hidden: { opacity: 0, y: 160 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
             <div className="flex px-1 py-4">
               <img
                 alt=""
@@ -253,6 +344,7 @@ const Section4 = () => {
                 </p>
               </div>
             </div>
+            </motion.div>
           </div>
         </div>
       </div>

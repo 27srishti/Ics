@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { motion, useAnimation } from "framer-motion";
 import Vari from "../Images/Vari.png";
 import Eco from "../Images/Eco.png";
 import Coolent3 from "../Images/Coolent3.png"
@@ -10,6 +10,16 @@ const Section3 = () => {
     <section className="bg-white  bg-gray-900">
       
       <div className="h-[32rem]  bg-black">
+      <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.5, duration: 3, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, y: -50 },
+                    visible: { opacity: 1, y: 0 },
+                  }}
+                >
         <div className="container px-6 py-10 mx-auto">
           <h1 className="text-2xl font-semibold text-center capitalize lg:text-3xl text-white">
             The Product Collections
@@ -25,9 +35,20 @@ const Section3 = () => {
             similique, at omnis eligendi optio eos harum.
           </p>
         </div>
+</motion.div>
       </div>
       <div className="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-4 xl:grid-cols-4">
+        <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.1, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, y: 30 },
+                    visible: { opacity: 1, y: 0 },
+                  }}
+                >
           <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl border-gray-700">
             <img
               className="object-cover bg-gray-300  p-3 w-full rounded-xl aspect-square"
@@ -54,6 +75,17 @@ const Section3 = () => {
               </span>
             </a>
           </div>
+          </motion.div>
+          <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.5, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, y: 60 },
+                    visible: { opacity: 1, y: 0 },
+                  }}
+                >
           <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl border-gray-700">
             <img
               className="object-cover bg-gray-300 p-4 w-full rounded-xl aspect-square"
@@ -80,6 +112,17 @@ const Section3 = () => {
               </span>
             </a>
           </div>
+          </motion.div>
+          <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.7, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, y: 70 },
+                    visible: { opacity: 1, y: 0 },
+                  }}
+                >
           <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl border-gray-700">
             <img
               className="object-cover bg-gray-300 p-3 w-full rounded-xl aspect-square"
@@ -106,7 +149,17 @@ const Section3 = () => {
               </span>
             </a>
           </div>
-          
+          </motion.div>
+          <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 1, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, y: 90 },
+                    visible: { opacity: 1, y: 0 },
+                  }}
+                >
           <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl border-gray-700">
             <img
               className="object-cover bg-gray-300 p-3 w-full rounded-xl aspect-square"
@@ -133,7 +186,7 @@ const Section3 = () => {
               </span>
             </a>
           </div>
-          
+          </motion.div>
         </div>
       </div>
     </section>
