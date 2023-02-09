@@ -28,30 +28,30 @@ const Hero = () => {
                 </div>
                 {/* ------------------------------------------------------------------------------------------------------------- */}
                 <nav className="sm:px-4 pb-5 py-2.5 bg-opacity-0 mx-auto  w-full z-20 flex justify-between border-b border-gray-600">
-                  
-              
                   <div className="container flex flex-wrap items-center justify-between mx-auto">
-                     <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 0.6, duration: 2, type: "spring" }}
-                  variants={{
-                    hidden: { opacity: 0, x: -50 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                > <a
-                      href="https://flowbite.com/"
-                      className="flex  items-center"
+                    <motion.div
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true, amount: 0.5 }}
+                      transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                      variants={{
+                        hidden: { opacity: 0, x: -50 },
+                        visible: { opacity: 1, x: 0 },
+                      }}
                     >
-                      <img
-                        src={Logo}
-                        className="h-6 mr-3 sm:h-9"
-                        alt="Flowbite Logo"
-                      />
-                    </a>
+                      {" "}
+                      <a
+                        href="https://flowbite.com/"
+                        className="flex  items-center"
+                      >
+                        <img
+                          src={Logo}
+                          className="h-6 mr-3 sm:h-9"
+                          alt="Flowbite Logo"
+                        />
+                      </a>
                     </motion.div>
-                    
+
                     <div className="flex md:order-2 ">
                       {/* <img
               className="mr-1 w-10 h-10 invisible md:visible"
@@ -69,7 +69,7 @@ const Hero = () => {
                 Location
               </span>
             </div> */}
-            
+
                       <a
                         href="#_"
                         className="relative w-[5rem] sm:w-[7rem] -mx-8 md:-mx-0 lg:w[7rem] md:w-[7rem]   text-center rounded   overflow-hidden group  bg-blue-700 hover:bg-gradient-to-r hover:from-blue-400 hover:to-blue-900 text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-500 shadow shadow-lg transition-all ease-out duration-300"
@@ -137,130 +137,97 @@ const Hero = () => {
                 {/* ------------------------------------------------------------------------------------------------ */}
                 <nav className="bg-gray-200 bg-opacity-0 text-white text-xs sm:text-sm md:text-sm  lg:text-sm font-medium ">
                   <div className="container flex items-center text-center  justify-center py-5 mx-auto  capitalize ">
-                  <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 0.5, duration: 3, type: "spring" }}
-                  variants={{
-                    hidden: { opacity: 0, x: -30},
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-                    <a
-                      href="#"
-                      className=" border-b-2 border-blue-500 mx-3 sm:mx-6"
+                    <motion.div
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true, amount: 0.5 }}
+                      transition={{ delay: 0.5, duration: 3, type: "spring" }}
+                      variants={{
+                        hidden: { opacity: 0, x: -30 },
+                        visible: { opacity: 1, x: 0 },
+                      }}
                     >
-                      Home
-                    </a>
+                      <a
+                        href="#"
+                        className=" border-b-2 border-blue-500 mx-3 sm:mx-6"
+                      >
+                        Home
+                      </a>
                     </motion.div>
                     <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 0.6, duration:2, type: "spring" }}
-                  variants={{
-                    hidden: { opacity: 0, x: -80 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-                    <a
-                      href="#"
-                      className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true, amount: 0.5 }}
+                      transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                      variants={{
+                        hidden: { opacity: 0, x: -80 },
+                        visible: { opacity: 1, x: 0 },
+                      }}
                     >
-                      About
-                    </a>
+                      <a
+                        href="#"
+                        className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
+                      >
+                        About
+                      </a>
                     </motion.div>
                     <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 0.7, duration: 2, type: "spring" }}
-                  variants={{
-                    hidden: { opacity: 0, x: 180 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-                    <a
-                      href="#"
-                      className="border-b-2 border-transparent hover:text-gray-400 hover:border-blue-500 mx-3 sm:mx-6"
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true, amount: 0.5 }}
+                      transition={{ delay: 0.7, duration: 2, type: "spring" }}
+                      variants={{
+                        hidden: { opacity: 0, x: 180 },
+                        visible: { opacity: 1, x: 0 },
+                      }}
                     >
-                      Products
-                    </a>
+                      <a
+                        href="#"
+                        className="border-b-2 border-transparent hover:text-gray-400 hover:border-blue-500 mx-3 sm:mx-6"
+                      >
+                        Products
+                      </a>
                     </motion.div>
                     <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay:0.8, duration: 3, type: "spring" }}
-                  variants={{
-                    hidden: { opacity: 0, x: 50 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-                    <a
-                      href="#"
-                      className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true, amount: 0.5 }}
+                      transition={{ delay: 0.8, duration: 3, type: "spring" }}
+                      variants={{
+                        hidden: { opacity: 0, x: 50 },
+                        visible: { opacity: 1, x: 0 },
+                      }}
                     >
-                      {" "}
-                      How-To-Videos{" "}
-                    </a></motion.div>
+                      <a
+                        href="#"
+                        className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
+                      >
+                        {" "}
+                        How-To-Videos{" "}
+                      </a>
+                    </motion.div>
                     <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay:0.9, duration: 3, type: "spring" }}
-                  variants={{
-                    hidden: { opacity: 0, x: 50 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-
-                    <a
-                      href="#"
-                      className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
+                      initial="hidden"
+                      whileInView="visible"
+                      viewport={{ once: true, amount: 0.5 }}
+                      transition={{ delay: 0.9, duration: 3, type: "spring" }}
+                      variants={{
+                        hidden: { opacity: 0, x: 50 },
+                        visible: { opacity: 1, x: 0 },
+                      }}
                     >
-                      Contact
-                    </a></motion.div>
+                      <a
+                        href="#"
+                        className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
+                      >
+                        Contact
+                      </a>
+                    </motion.div>
                   </div>
                 </nav>
               </header>
-              <div className="Max-w-[800px] font-Poppins  w-full h-auto mx-auto px-1 text-center flex flex-col justify-center ">
-                {/* <nav className="bg-black text-white hover:text-gray-700 text-xs sm:text-sm md:text-sm  lg:text-sm font-medium ">
-        <div className="container flex items-center text-center  justify-center py-4 mx-auto  capitalize ">
-          <a
-            href="#"
-            className=" border-b-2 border-blue-500 mx-3 sm:mx-6"
-          >
-            Home
-          </a>
-          <a
-            href="#"
-            className="border-b-2 border-transparent hover:text-gray-800  hover:border-blue-500 mx-3 sm:mx-6"
-          >
-            About 
-          </a>
-          <a
-            href="#"
-            className="border-b-2 border-transparent hover:text-gray-800 hover:border-blue-500 mx-3 sm:mx-6"
-          >
-            Products
-          </a>
-          <a
-            href="#"
-            className="border-b-2 border-transparent hover:text-gray-800  hover:border-blue-500 mx-3 sm:mx-6"
-          >   How-To-Videos </a>
-        
-          <a
-            href="#"
-            className="border-b-2 border-transparent hover:text-gray-800  hover:border-blue-500 mx-3 sm:mx-6"
-          >
-            Contact 
-          </a>
-        </div>
-      </nav> */}
-                
-                <div className="text-gray-300 md:text-5xl sm:text-5xl text-3xl font-normal font-Poppins ">
+              <div className="Max-w-[800px] font-Poppins  text-center bg-black w-[70%] mx-auto px-5 pt-5 mt-3  mb-3 bg-opacity-50 rounded-lg text-center flex flex-col justify-center ">
+                <div className="text-gray-300   md:text-4xl sm:text-5xl text-3xl font-normal font-Poppins ">
                   <motion.div
                     initial="hidden"
                     whileInView="visible"
@@ -272,28 +239,28 @@ const Hero = () => {
                     }}
                   >
                     <div>
-                    Higher Performance, Smaller Footprints <br/> <h1 className="md:pt-3">With</h1><h1 className="md:pt-3"> Lower Price!</h1>
-                      <span className="pl-3 text-blue-800 font-Poppins ">
-                     
-                      </span>
+                      Higher Performance, Smaller Footprints <br />{" "}
+                      <h1 className="md:pt-3">With</h1>
+                      <h1 className="md:pt-3"> Lower Price!</h1>
+                      <span className="pl-3 text-blue-800 font-Poppins "></span>
                       <br />
                     </div>{" "}
                   </motion.div>
                   <motion.div
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 1, duration: 10, type: "spring" }}
-                  variants={{
-                    hidden: { opacity: 0, x: 0 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-                  <p className="text-blue-700  text-lg md:text-xl font-medium  ">
-                  LLC manufactures
-                 high pressure coolant systems  for machine tool applications.
-                  </p>{" "}
-                </motion.div>
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ delay: 1, duration: 10, type: "spring" }}
+                    variants={{
+                      hidden: { opacity: 0, x: 0 },
+                      visible: { opacity: 1, x: 0 },
+                    }}
+                  >
+                    <p className="text-blue-500  text-lg md:text-xl   font-medium  ">
+                      LLC manufactures high pressure coolant systems for machine
+                      tool applications.
+                    </p>{" "}
+                  </motion.div>
                 </div>
                 <motion.div
                   initial="hidden"
@@ -305,8 +272,8 @@ const Hero = () => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-                  <p className=" text-gray-300 font-Poppins text-lg md:text-xl pt-3 sm:pt-4 md:pt-2 sm:text-base  md:text-xl font-medium">
-                  How can you afford not to add high pressure?
+                  <p className=" text-gray-500 font-Poppins text-lg md:text-xl pt-3 sm:pt-4 md:pt-2 sm:text-base  md:text-xl font-medium">
+                    How can you afford not to add high pressure?
                   </p>
                 </motion.div>
 
