@@ -8,7 +8,7 @@ import Section5 from "./Components/Section5";
 
 function App() {
   return (
-    <div className="App overflow-x-hidden ">
+    <div className="App overflow-x-hidden font-Poppins ">
       <Navbar />
       <Hero />
       <Section2 />

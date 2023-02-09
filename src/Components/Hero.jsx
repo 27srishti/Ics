@@ -226,7 +226,7 @@ const Hero = () => {
                   </div>
                 </nav>
               </header>
-              <div className="Max-w-[800px] font-Poppins  text-center bg-black w-[70%] mx-auto px-5 pt-5 mt-3  mb-3 bg-opacity-50 rounded-lg text-center flex flex-col justify-center ">
+              <div className="Max-w-[800px] font-Poppins  text-center bg-black w-[70%] mx-auto px-5 pt-6 bg-blur-sm mt-3  mb-3 bg-opacity-50 rounded-lg text-center flex flex-col justify-center ">
                 <div className="text-gray-300   md:text-4xl sm:text-5xl text-3xl font-normal font-Poppins ">
                   <motion.div
                     initial="hidden"
