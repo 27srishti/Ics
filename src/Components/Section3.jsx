@@ -167,7 +167,7 @@ const Section3 = () => {
               alt=""
             />
             <h1 className="mt-4 text-lg md:text-xl text-center  font-semibold  capitalize text-white">
-           Multi-Stage oil mist collectors
+           Multi-Stage mist collectors
             </h1>
             <p className="mt-2 md:text-xl text-blue-600 capitalize ">
              Mist Collectors

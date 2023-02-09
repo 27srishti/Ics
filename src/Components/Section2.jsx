@@ -36,10 +36,13 @@ const Section2 = () => {
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                  animate={{ x: 100 }}
+                  transition={{ delay: 0.6, duration: 2,  repeatType: "Infinity",
+                  repeatDelay: 1, type: "spring" }}
                   variants={{
                     hidden: { opacity: 0, x: -50 },
                     visible: { opacity: 1, x: 0 },
+                    
                   }}
                 >
                   <div className=" mt-10  md:mt-20">

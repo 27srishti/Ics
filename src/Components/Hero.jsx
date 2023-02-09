@@ -135,6 +135,7 @@ const Hero = () => {
                   </div>
                 </nav>
                 {/* ------------------------------------------------------------------------------------------------ */}
+                
                 <nav className="bg-gray-200 bg-opacity-0 text-white text-xs sm:text-sm md:text-sm  lg:text-sm font-medium ">
                   <div className="container flex items-center text-center  justify-center py-5 mx-auto  capitalize ">
                     <motion.div
