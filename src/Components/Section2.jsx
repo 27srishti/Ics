@@ -42,7 +42,7 @@ const Section2 = () => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-                  <div className=" mt-10 md:mt-20">
+                  <div className=" mt-10  md:mt-20">
                     <img
                       src={Coolent2}
                       alt=""
