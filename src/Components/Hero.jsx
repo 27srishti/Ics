@@ -200,10 +200,10 @@ const Hero = () => {
                     >
                       <a
                         href="#"
-                        className="border-b-2 border-transparent hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
+                        className="border-b-2 border-transparent text-center hover:text-gray-400  hover:border-blue-500 mx-3 sm:mx-6"
                       >
                         {" "}
-                        How-To-Videos{" "}
+                        Videos{" "}
                       </a>
                     </motion.div>
                     <motion.div
@@ -226,8 +226,8 @@ const Hero = () => {
                   </div>
                 </nav>
               </header>
-              <div className="Max-w-[800px] font-Poppins  text-center bg-black w-[70%] mx-auto px-5 pt-6 bg-blur-sm mt-3  mb-3 bg-opacity-50 rounded-lg text-center flex flex-col justify-center ">
-                <div className="text-gray-300   md:text-4xl sm:text-5xl text-3xl font-normal font-Poppins ">
+              <div className="Max-w-[800px] font-Poppins  text-center bg-black  md:w-[70%] mx-auto px-5 pt-8 md:pt-6 bg-blur-sm mt-3  mb-3 bg-opacity-50 rounded-lg text-center flex flex-col justify-center ">
+                <div className="text-gray-300   md:text-4xl sm:text-5xl text-2xl font-normal font-Poppins ">
                   <motion.div
                     initial="hidden"
                     whileInView="visible"
@@ -256,7 +256,7 @@ const Hero = () => {
                       visible: { opacity: 1, x: 0 },
                     }}
                   >
-                    <p className="text-blue-500  text-lg md:text-xl   font-medium  ">
+                    <p className="text-blue-500 -mt-5 text-lg md:text-xl   font-medium  ">
                       LLC manufactures high pressure coolant systems for machine
                       tool applications.
                     </p>{" "}
@@ -272,7 +272,7 @@ const Hero = () => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-                  <p className=" text-gray-500 font-Poppins text-lg md:text-xl pt-3 sm:pt-4 md:pt-2 sm:text-base  md:text-xl font-medium">
+                  <p className=" text-gray-500 mt-2 font-Poppins text-lg md:text-xl pt-3 sm:pt-4 md:pt-2 sm:text-base  md:text-xl font-medium">
                     How can you afford not to add high pressure?
                   </p>
                 </motion.div>

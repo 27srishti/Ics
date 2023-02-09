@@ -17,7 +17,7 @@ const Section4 = () => {
           visible: { opacity: 1, y: 0 },
         }}
       >
-        <h1 className="  text-xl md:text-4xl text-center font-medium mb-8">
+        <h1 className="  text-xl md:text-4xl text-center font-semibold mb-8">
           {" "}
           Cutting Tool Engineering Magazine <br />{" "}
           <span className="text-blue-700"> Case Study</span>{" "}
